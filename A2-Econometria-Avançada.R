@@ -30,6 +30,6 @@ dados <- ts(br, start = 1950, frequency = 1) #Monta a tabela dados como série t
 plot(dados) #Monta um grafico detabelasde dados
 plot(dados, col="blue", main="Dados Brasileiros", xlab="Ano") #muda o titulo e a cor das linhas do grafico para azul
 
-#Salvar CNVAZQUEZ
+#Salvar KYQUEECONOMETRIA
 
 write.csv(br, file="C:/Econometria/Dados-Brasileiros.csv") #salva a tabela
